@@ -1,0 +1,10 @@
+# Greenprint agent networks (Neuro-SAN). The network name is the file stem.
+{
+    "constructos.hocon": true,
+    "architect.hocon": true,
+    "electrical_engineer.hocon": true,
+    "plumbing_engineer.hocon": true,
+    "cost_estimator.hocon": true,
+    "interior_designer.hocon": true,
+    "sustainability_advisor.hocon": true,
+}

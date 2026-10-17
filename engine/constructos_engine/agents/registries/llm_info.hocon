@@ -1,0 +1,10 @@
+# Models Greenprint uses that are newer than neuro-san's built-in list.
+{
+    "gemini-3.8-flash": {
+        "class": "gemini",
+        "modalities": { "input": ["text", "images", "pdf"], "output": ["text"] },
+        "capabilities": ["tools"],
+        "context_window_size": 1048576,
+        "max_output_tokens": 65536,
+    },
+}

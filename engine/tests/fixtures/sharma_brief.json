@@ -1,0 +1,129 @@
+{
+ "schema_version": "constructos.brief.v1",
+ "original_text": "We have a 40 x 60 ft plot facing north. We'd love a two-storey home with three bedrooms: our bedroom on the ground floor with its own bathroom, and two bedrooms for the kids upstairs. Parking for two cars, an open kitchen with dining, a small prayer room, and a terrace upstairs.",
+ "plot": {
+  "width": 40.0,
+  "depth": 60.0,
+  "unit": "ft",
+  "width_mm": 12192,
+  "depth_mm": 18288,
+  "status": "stated"
+ },
+ "storeys": 2,
+ "rooms": [
+  {
+   "id": "bedroom-1",
+   "type": "bedroom",
+   "name": "Our bedroom",
+   "floor_index": 0,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": true,
+   "source": "our bedroom on the ground floor with its own bathroom"
+  },
+  {
+   "id": "bathroom-1",
+   "type": "bathroom",
+   "name": "En-suite bathroom",
+   "floor_index": 0,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": true,
+   "source": "with its own bathroom"
+  },
+  {
+   "id": "bedroom-2",
+   "type": "bedroom",
+   "name": "Kids bedroom 1",
+   "floor_index": 1,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": false,
+   "source": "two bedrooms for the kids upstairs"
+  },
+  {
+   "id": "bedroom-3",
+   "type": "bedroom",
+   "name": "Kids bedroom 2",
+   "floor_index": 1,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": false,
+   "source": "two bedrooms for the kids upstairs"
+  },
+  {
+   "id": "kitchen-1",
+   "type": "kitchen",
+   "name": "Kitchen",
+   "floor_index": null,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": false,
+   "source": "an open kitchen with dining"
+  },
+  {
+   "id": "dining-1",
+   "type": "dining",
+   "name": "Dining area",
+   "floor_index": null,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": false,
+   "source": "dining"
+  },
+  {
+   "id": "prayer-1",
+   "type": "prayer",
+   "name": "Prayer room",
+   "floor_index": null,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": false,
+   "source": "a small prayer room"
+  },
+  {
+   "id": "balcony-1",
+   "type": "balcony",
+   "name": "Terrace",
+   "floor_index": 1,
+   "requirement": "hard",
+   "min_area_m2": null,
+   "attached_bathroom": false,
+   "source": "a terrace upstairs"
+  }
+ ],
+ "parking_spaces": 2,
+ "open_kitchen": true,
+ "entrance_facing": "north",
+ "entrance_status": "stated",
+ "preferences": [
+  {
+   "statement": "North-facing plot",
+   "source": "plot facing north"
+  }
+ ],
+ "assumptions": [
+  {
+   "statement": "Open kitchen implies a distinct kitchen room area integrated with dining.",
+   "source": "an open kitchen with dining"
+  },
+  {
+   "statement": "Terrace upstairs mapped to balcony category.",
+   "source": "a terrace upstairs"
+  }
+ ],
+ "clarifications": [
+  {
+   "field": "rooms.living",
+   "question": "Would you like a separate living room or family lounge included in the design?",
+   "essential": false
+  },
+  {
+   "field": "rooms.bathrooms",
+   "question": "Do the kids' bedrooms upstairs need an attached bathroom or a shared/common bathroom on the first floor?",
+   "essential": false
+  }
+ ],
+ "conflicts": [],
+ "extracted_by": "gemini-3.8-flash"
+}

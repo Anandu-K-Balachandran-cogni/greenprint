@@ -1,0 +1,12 @@
+# Anchored to app/: an unanchored "build/" would also drop src/routes/build.
+.gcloudignore
+/node_modules/
+/build/
+/.svelte-kit/
+/test-results/
+/playwright-report*/
+/benchmark-results/
+/tests/
+.env*
+*.log
+.DS_Store

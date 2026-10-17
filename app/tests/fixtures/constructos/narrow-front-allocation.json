@@ -1,0 +1,302 @@
+{
+ "schema_version": "constructos.allocation.v1",
+ "status": "FEASIBLE",
+ "alternative": 0,
+ "seed": 11,
+ "solve_seconds": 25.02,
+ "objective": 272.0,
+ "grid_mm": 300,
+ "plot": {
+  "width_mm": 9144,
+  "depth_mm": 12192
+ },
+ "setbacks": {
+  "front_mm": 1000,
+  "rear_mm": 600,
+  "side_mm": 600
+ },
+ "footprint": {
+  "x_mm": 600,
+  "y_mm": 1000,
+  "width_mm": 7800,
+  "depth_mm": 10500
+ },
+ "spaces": [
+  {
+   "id": "kitchen-1",
+   "type": "kitchen",
+   "name": "Kitchen",
+   "floor": 0,
+   "x_mm": 600,
+   "y_mm": 1000,
+   "w_mm": 2100,
+   "h_mm": 2400,
+   "area_m2": 5.04,
+   "exterior_sides": [
+    "left",
+    "front"
+   ],
+   "filler": false
+  },
+  {
+   "id": "living-1",
+   "type": "living",
+   "name": "Living room",
+   "floor": 0,
+   "x_mm": 2700,
+   "y_mm": 1000,
+   "w_mm": 3000,
+   "h_mm": 3900,
+   "area_m2": 11.7,
+   "exterior_sides": [
+    "front"
+   ],
+   "filler": false
+  },
+  {
+   "id": "parking-1",
+   "type": "garage",
+   "name": "Parking (1 car)",
+   "floor": 0,
+   "x_mm": 5700,
+   "y_mm": 1000,
+   "w_mm": 2700,
+   "h_mm": 5400,
+   "area_m2": 14.58,
+   "exterior_sides": [
+    "right",
+    "front"
+   ],
+   "filler": false
+  },
+  {
+   "id": "bathroom-3",
+   "type": "bathroom",
+   "name": "Common Bathroom",
+   "floor": 0,
+   "x_mm": 600,
+   "y_mm": 3400,
+   "w_mm": 2100,
+   "h_mm": 1500,
+   "area_m2": 3.15,
+   "exterior_sides": [
+    "left"
+   ],
+   "filler": false
+  },
+  {
+   "id": "dining-1",
+   "type": "dining",
+   "name": "Dining room",
+   "floor": 0,
+   "x_mm": 600,
+   "y_mm": 4900,
+   "w_mm": 5100,
+   "h_mm": 2400,
+   "area_m2": 12.24,
+   "exterior_sides": [
+    "left"
+   ],
+   "filler": false
+  },
+  {
+   "id": "bedroom-2",
+   "type": "bedroom",
+   "name": "Bedroom 2",
+   "floor": 0,
+   "x_mm": 5700,
+   "y_mm": 6400,
+   "w_mm": 2700,
+   "h_mm": 3600,
+   "area_m2": 9.72,
+   "exterior_sides": [
+    "right"
+   ],
+   "filler": false
+  },
+  {
+   "id": "other-1",
+   "type": "other",
+   "name": "Open Verandah",
+   "floor": 0,
+   "x_mm": 600,
+   "y_mm": 7300,
+   "w_mm": 2400,
+   "h_mm": 3000,
+   "area_m2": 7.2,
+   "exterior_sides": [
+    "left"
+   ],
+   "filler": false
+  },
+  {
+   "id": "hall-1",
+   "type": "hall",
+   "name": "Hall",
+   "floor": 0,
+   "x_mm": 3000,
+   "y_mm": 7300,
+   "w_mm": 2700,
+   "h_mm": 1200,
+   "area_m2": 3.24,
+   "exterior_sides": [],
+   "filler": false
+  },
+  {
+   "id": "bedroom-1",
+   "type": "bedroom",
+   "name": "Bedroom 1",
+   "floor": 0,
+   "x_mm": 3000,
+   "y_mm": 8500,
+   "w_mm": 2700,
+   "h_mm": 3000,
+   "area_m2": 8.1,
+   "exterior_sides": [
+    "rear"
+   ],
+   "filler": false
+  },
+  {
+   "id": "bathroom-2",
+   "type": "bathroom",
+   "name": "Attached Bathroom 2",
+   "floor": 0,
+   "x_mm": 5700,
+   "y_mm": 10000,
+   "w_mm": 2700,
+   "h_mm": 1500,
+   "area_m2": 4.05,
+   "exterior_sides": [
+    "right",
+    "rear"
+   ],
+   "filler": false
+  },
+  {
+   "id": "bathroom-1",
+   "type": "bathroom",
+   "name": "Attached Bathroom 1",
+   "floor": 0,
+   "x_mm": 600,
+   "y_mm": 10300,
+   "w_mm": 2400,
+   "h_mm": 1200,
+   "area_m2": 2.88,
+   "exterior_sides": [
+    "left",
+    "rear"
+   ],
+   "filler": false
+  }
+ ],
+ "passages": [
+  {
+   "a": "exterior",
+   "b": "living-1",
+   "kind": "entrance",
+   "floor": 0,
+   "side": null,
+   "overlap_mm": 3000,
+   "extra": false
+  },
+  {
+   "a": "living-1",
+   "b": "dining-1",
+   "kind": "opening",
+   "floor": 0,
+   "side": "rear",
+   "overlap_mm": 3000,
+   "extra": false
+  },
+  {
+   "a": "living-1",
+   "b": "kitchen-1",
+   "kind": "opening",
+   "floor": 0,
+   "side": "left",
+   "overlap_mm": 2400,
+   "extra": false
+  },
+  {
+   "a": "dining-1",
+   "b": "hall-1",
+   "kind": "opening",
+   "floor": 0,
+   "side": "rear",
+   "overlap_mm": 2700,
+   "extra": false
+  },
+  {
+   "a": "exterior",
+   "b": "parking-1",
+   "kind": "garage",
+   "floor": 0,
+   "side": null,
+   "overlap_mm": 2700,
+   "extra": false
+  },
+  {
+   "a": "hall-1",
+   "b": "bedroom-1",
+   "kind": "door",
+   "floor": 0,
+   "side": "rear",
+   "overlap_mm": 2700,
+   "extra": false
+  },
+  {
+   "a": "hall-1",
+   "b": "bedroom-2",
+   "kind": "door",
+   "floor": 0,
+   "side": "right",
+   "overlap_mm": 1200,
+   "extra": false
+  },
+  {
+   "a": "hall-1",
+   "b": "other-1",
+   "kind": "door",
+   "floor": 0,
+   "side": "left",
+   "overlap_mm": 1200,
+   "extra": false
+  },
+  {
+   "a": "living-1",
+   "b": "bathroom-3",
+   "kind": "door",
+   "floor": 0,
+   "side": "left",
+   "overlap_mm": 1500,
+   "extra": false
+  },
+  {
+   "a": "bedroom-1",
+   "b": "bathroom-1",
+   "kind": "door",
+   "floor": 0,
+   "side": "left",
+   "overlap_mm": 1200,
+   "extra": false
+  },
+  {
+   "a": "bedroom-2",
+   "b": "bathroom-2",
+   "kind": "door",
+   "floor": 0,
+   "side": "rear",
+   "overlap_mm": 2700,
+   "extra": false
+  }
+ ],
+ "assumptions": [
+  "Compact plot (82 m\u00b2 buildable): unstated room sizes use NBC-style minimums instead of comfortable targets.",
+  "Attached Bathroom 1 is the en-suite of Bedroom 1.",
+  "Attached Bathroom 2 is the en-suite of Bedroom 2.",
+  "Setbacks assumed: front 1 m, rear 0.6 m, sides 0.6 m (replace with local bylaws).",
+  "Layout grid 300 mm; walls are centred on grid lines."
+ ],
+ "message": null
+}

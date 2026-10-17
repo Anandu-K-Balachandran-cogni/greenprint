@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.svelte-kit/
+app/build/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+test-results/
+playwright-report/
+.DS_Store
+engine/data/
+playwright-report-constructos/
+# Service-account keys and other credentials (never commit)
+/*.json
+*service-account*.json
+.secrets/
+engine/evals/*.results.json
+submission/
+
+# Showcase captures (the published screenshots are the JPGs)
+docs/screenshots/*.png
+docs/screenshots/*.jpeg

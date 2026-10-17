@@ -1,0 +1,10 @@
+# Upload only what the image build needs (never local data, venvs or keys).
+.gcloudignore
+.venv/
+data/
+tests/
+**/__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.json
+.env*

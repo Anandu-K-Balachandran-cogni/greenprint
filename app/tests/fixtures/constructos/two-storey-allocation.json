@@ -1,0 +1,429 @@
+{
+ "schema_version": "constructos.allocation.v1",
+ "status": "FEASIBLE",
+ "alternative": 0,
+ "seed": 1,
+ "solve_seconds": 25.01,
+ "objective": 135.0,
+ "grid_mm": 300,
+ "plot": {
+  "width_mm": 12192,
+  "depth_mm": 18288
+ },
+ "setbacks": {
+  "front_mm": 1500,
+  "rear_mm": 1000,
+  "side_mm": 900
+ },
+ "footprint": {
+  "x_mm": 900,
+  "y_mm": 1500,
+  "width_mm": 8700,
+  "depth_mm": 12000
+ },
+ "spaces": [
+  {
+   "id": "foyer-1",
+   "type": "foyer",
+   "name": "Foyer",
+   "floor": 0,
+   "x_mm": 900,
+   "y_mm": 1500,
+   "w_mm": 2100,
+   "h_mm": 2100,
+   "area_m2": 4.41,
+   "exterior_sides": [
+    "left",
+    "front"
+   ],
+   "filler": false
+  },
+  {
+   "id": "toilet-1",
+   "type": "toilet",
+   "name": "Guest toilet",
+   "floor": 0,
+   "x_mm": 3000,
+   "y_mm": 1500,
+   "w_mm": 1200,
+   "h_mm": 2100,
+   "area_m2": 2.52,
+   "exterior_sides": [
+    "front"
+   ],
+   "filler": false
+  },
+  {
+   "id": "parking-1",
+   "type": "garage",
+   "name": "Parking (2 cars)",
+   "floor": 0,
+   "x_mm": 4200,
+   "y_mm": 1500,
+   "w_mm": 5400,
+   "h_mm": 5400,
+   "area_m2": 29.16,
+   "exterior_sides": [
+    "right",
+    "front"
+   ],
+   "filler": false
+  },
+  {
+   "id": "living-1",
+   "type": "living",
+   "name": "Living room",
+   "floor": 0,
+   "x_mm": 900,
+   "y_mm": 3600,
+   "w_mm": 3300,
+   "h_mm": 5100,
+   "area_m2": 16.83,
+   "exterior_sides": [
+    "left"
+   ],
+   "filler": false
+  },
+  {
+   "id": "dining-1",
+   "type": "dining",
+   "name": "Dining",
+   "floor": 0,
+   "x_mm": 4200,
+   "y_mm": 6900,
+   "w_mm": 3000,
+   "h_mm": 3300,
+   "area_m2": 9.9,
+   "exterior_sides": [],
+   "filler": false
+  },
+  {
+   "id": "kitchen-1",
+   "type": "kitchen",
+   "name": "Kitchen",
+   "floor": 0,
+   "x_mm": 7200,
+   "y_mm": 6900,
+   "w_mm": 2400,
+   "h_mm": 3300,
+   "area_m2": 7.92,
+   "exterior_sides": [
+    "right"
+   ],
+   "filler": false
+  },
+  {
+   "id": "bathroom-1",
+   "type": "bathroom",
+   "name": "En-suite (Parents bedroom)",
+   "floor": 0,
+   "x_mm": 900,
+   "y_mm": 8700,
+   "w_mm": 3300,
+   "h_mm": 1500,
+   "area_m2": 4.95,
+   "exterior_sides": [
+    "left"
+   ],
+   "filler": false
+  },
+  {
+   "id": "master-bedroom-1",
+   "type": "master_bedroom",
+   "name": "Parents bedroom",
+   "floor": 0,
+   "x_mm": 900,
+   "y_mm": 10200,
+   "w_mm": 4500,
+   "h_mm": 3300,
+   "area_m2": 14.85,
+   "exterior_sides": [
+    "left",
+    "rear"
+   ],
+   "filler": false
+  },
+  {
+   "id": "hall-1",
+   "type": "hall",
+   "name": "Hall",
+   "floor": 0,
+   "x_mm": 5400,
+   "y_mm": 10200,
+   "w_mm": 1800,
+   "h_mm": 3300,
+   "area_m2": 5.94,
+   "exterior_sides": [
+    "rear"
+   ],
+   "filler": false
+  },
+  {
+   "id": "stair-0",
+   "type": "stair",
+   "name": "Stair",
+   "floor": 0,
+   "x_mm": 7200,
+   "y_mm": 10200,
+   "w_mm": 2400,
+   "h_mm": 3300,
+   "area_m2": 7.92,
+   "exterior_sides": [
+    "right",
+    "rear"
+   ],
+   "filler": false
+  },
+  {
+   "id": "terrace-1-2",
+   "type": "terrace",
+   "name": "Open terrace",
+   "floor": 1,
+   "x_mm": 900,
+   "y_mm": 1500,
+   "w_mm": 5100,
+   "h_mm": 8700,
+   "area_m2": 44.37,
+   "exterior_sides": [
+    "left",
+    "front"
+   ],
+   "filler": true
+  },
+  {
+   "id": "terrace-1-1",
+   "type": "terrace",
+   "name": "Open terrace",
+   "floor": 1,
+   "x_mm": 6000,
+   "y_mm": 1500,
+   "w_mm": 3600,
+   "h_mm": 5400,
+   "area_m2": 19.44,
+   "exterior_sides": [
+    "right",
+    "front"
+   ],
+   "filler": true
+  },
+  {
+   "id": "bedroom-2",
+   "type": "bedroom",
+   "name": "Bedroom 3",
+   "floor": 1,
+   "x_mm": 6000,
+   "y_mm": 6900,
+   "w_mm": 3600,
+   "h_mm": 3300,
+   "area_m2": 11.88,
+   "exterior_sides": [
+    "right"
+   ],
+   "filler": false
+  },
+  {
+   "id": "bedroom-1",
+   "type": "bedroom",
+   "name": "Bedroom 2",
+   "floor": 1,
+   "x_mm": 900,
+   "y_mm": 10200,
+   "w_mm": 3000,
+   "h_mm": 3300,
+   "area_m2": 9.9,
+   "exterior_sides": [
+    "left",
+    "rear"
+   ],
+   "filler": false
+  },
+  {
+   "id": "hall-2",
+   "type": "hall",
+   "name": "Upper hall (the first floor)",
+   "floor": 1,
+   "x_mm": 3900,
+   "y_mm": 10200,
+   "w_mm": 3300,
+   "h_mm": 1800,
+   "area_m2": 5.94,
+   "exterior_sides": [],
+   "filler": false
+  },
+  {
+   "id": "stair-1",
+   "type": "stair",
+   "name": "Stair",
+   "floor": 1,
+   "x_mm": 7200,
+   "y_mm": 10200,
+   "w_mm": 2400,
+   "h_mm": 3300,
+   "area_m2": 7.92,
+   "exterior_sides": [
+    "right",
+    "rear"
+   ],
+   "filler": false
+  },
+  {
+   "id": "bathroom-2",
+   "type": "bathroom",
+   "name": "Common bathroom",
+   "floor": 1,
+   "x_mm": 3900,
+   "y_mm": 12000,
+   "w_mm": 3300,
+   "h_mm": 1500,
+   "area_m2": 4.95,
+   "exterior_sides": [
+    "rear"
+   ],
+   "filler": false
+  }
+ ],
+ "passages": [
+  {
+   "a": "exterior",
+   "b": "foyer-1",
+   "kind": "entrance",
+   "floor": 0,
+   "side": null,
+   "overlap_mm": 2100
+  },
+  {
+   "a": "foyer-1",
+   "b": "living-1",
+   "kind": "door",
+   "floor": 0,
+   "side": "rear",
+   "overlap_mm": 2100
+  },
+  {
+   "a": "living-1",
+   "b": "dining-1",
+   "kind": "opening",
+   "floor": 0,
+   "side": "right",
+   "overlap_mm": 1800
+  },
+  {
+   "a": "dining-1",
+   "b": "kitchen-1",
+   "kind": "opening",
+   "floor": 0,
+   "side": "right",
+   "overlap_mm": 3300
+  },
+  {
+   "a": "dining-1",
+   "b": "hall-1",
+   "kind": "opening",
+   "floor": 0,
+   "side": "rear",
+   "overlap_mm": 1800
+  },
+  {
+   "a": "hall-1",
+   "b": "stair-0",
+   "kind": "stair",
+   "floor": 0,
+   "side": "right",
+   "overlap_mm": 3300
+  },
+  {
+   "a": "exterior",
+   "b": "parking-1",
+   "kind": "garage",
+   "floor": 0,
+   "side": null,
+   "overlap_mm": 5400
+  },
+  {
+   "a": "hall-1",
+   "b": "master-bedroom-1",
+   "kind": "door",
+   "floor": 0,
+   "side": "left",
+   "overlap_mm": 3300
+  },
+  {
+   "a": "foyer-1",
+   "b": "toilet-1",
+   "kind": "door",
+   "floor": 0,
+   "side": "right",
+   "overlap_mm": 2100
+  },
+  {
+   "a": "stair-1",
+   "b": "hall-2",
+   "kind": "stair",
+   "floor": 1,
+   "side": "left",
+   "overlap_mm": 1800
+  },
+  {
+   "a": "hall-2",
+   "b": "bedroom-1",
+   "kind": "door",
+   "floor": 1,
+   "side": "left",
+   "overlap_mm": 1800
+  },
+  {
+   "a": "hall-2",
+   "b": "bedroom-2",
+   "kind": "door",
+   "floor": 1,
+   "side": "front",
+   "overlap_mm": 1200
+  },
+  {
+   "a": "hall-2",
+   "b": "bathroom-2",
+   "kind": "door",
+   "floor": 1,
+   "side": "rear",
+   "overlap_mm": 3300
+  },
+  {
+   "a": "master-bedroom-1",
+   "b": "bathroom-1",
+   "kind": "door",
+   "floor": 0,
+   "side": "front",
+   "overlap_mm": 3300
+  },
+  {
+   "a": "bedroom-2",
+   "b": "terrace-1-1",
+   "kind": "door",
+   "floor": 1,
+   "side": null,
+   "overlap_mm": 3600
+  },
+  {
+   "a": "bedroom-1",
+   "b": "terrace-1-2",
+   "kind": "door",
+   "floor": 1,
+   "side": null,
+   "overlap_mm": 3000
+  }
+ ],
+ "assumptions": [
+  "Bedroom 2 placed on the first floor (no floor was specified).",
+  "Bedroom 3 placed on the first floor (no floor was specified).",
+  "Added a living room on the ground floor (a home needs one; not stated).",
+  "Added a dining area next to the kitchen.",
+  "Added an en-suite bathroom to Parents bedroom.",
+  "Added a guest toilet on the ground floor (the only other bathroom is en-suite).",
+  "Added a common bathroom on the first floor.",
+  "A dog-leg stair core (2.4 x 3.3 m) connects the floors.",
+  "Added an entrance foyer at the front.",
+  "Setbacks assumed: front 1.5 m, rear 1 m, sides 0.9 m (replace with local bylaws).",
+  "Layout grid 300 mm; walls are centred on grid lines."
+ ],
+ "message": null
+}
