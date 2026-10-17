@@ -61,13 +61,17 @@ to one lead agent, which brings in the right expert. The interior designer works
 
 ```mermaid
 flowchart TB
-  F[The family] --> L["Greenprint · lead agent<br/>knows the project, routes each question"]
-  L --> AR["Architect<br/>explains, reviews, re-plans"]
-  L --> EE["Electrical engineer<br/>points, circuits, AC and EV"]
-  L --> PE["Plumbing engineer<br/>supply, drainage, entry point"]
-  L --> CE["Cost estimator<br/>itemised, by finish and city"]
-  L --> SA["Sustainability advisor<br/>climate, plot sun, green fixes"]
-  X[The family, in the 3D editor] --> ID["Interior designer<br/>picks pieces, lays out the room"]
+  subgraph chat[In the chat]
+    F[The family] --> L["Greenprint · lead agent<br/>knows the project, routes each question"]
+    L --> AR["Architect<br/>explains, reviews, re-plans"]
+    L --> EE["Electrical engineer<br/>points, circuits, AC and EV"]
+    L --> PE["Plumbing engineer<br/>supply, drainage, entry point"]
+    L --> CE["Cost estimator<br/>itemised, by finish and city"]
+    L --> SA["Sustainability advisor<br/>climate, plot sun, green fixes"]
+  end
+  subgraph editor[In the 3D editor]
+    X[The family] --> ID["Interior designer<br/>picks pieces, lays out the room"]
+  end
 ```
 
 Every expert works on the real design through coded tools: it reads and changes the saved plan, wiring, pipes,
